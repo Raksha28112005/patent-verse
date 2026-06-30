@@ -1,0 +1,100 @@
+@import "tailwindcss";
+
+:root {
+  /* Ink / blueprint palette */
+  --color-ink: #0B1220;
+  --color-ink-900: #0E1626;
+  --color-ink-800: #121B2E;
+  --color-ink-700: #1A2538;
+  --color-ink-600: #263452;
+  --color-ink-border: #28344A;
+  --color-ink-50: #E8EAF0;
+  --color-ink-300: #9AA4BC;
+
+  /* Blueprint cyan — data / similarity layer */
+  --color-blueprint: #5EEAD4;
+  --color-blueprint-dim: #2DD4BF;
+
+  /* Brass / amber — risk & highlight */
+  --color-brass: #D4A857;
+  --color-brass-dim: #B68A3C;
+
+  /* Violet — AI agent layer */
+  --color-agent: #8B7FF0;
+  --color-agent-dim: #7C6FE8;
+
+  /* Status */
+  --color-danger: #F0654F;
+  --color-success: #4ADE80;
+}
+
+@theme inline {
+  --color-ink: var(--color-ink);
+  --color-ink-900: var(--color-ink-900);
+  --color-ink-800: var(--color-ink-800);
+  --color-ink-700: var(--color-ink-700);
+  --color-ink-600: var(--color-ink-600);
+  --color-ink-border: var(--color-ink-border);
+  --color-ink-50: var(--color-ink-50);
+  --color-ink-300: var(--color-ink-300);
+
+  --color-blueprint: var(--color-blueprint);
+  --color-blueprint-dim: var(--color-blueprint-dim);
+
+  --color-brass: var(--color-brass);
+  --color-brass-dim: var(--color-brass-dim);
+
+  --color-agent: var(--color-agent);
+  --color-agent-dim: var(--color-agent-dim);
+
+  --color-danger: var(--color-danger);
+  --color-success: var(--color-success);
+
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-ink-50);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+}
+
+/* Blueprint grid background, used as a subtle ambient layer */
+.bp-grid {
+  background-image:
+    linear-gradient(to right, rgba(94, 234, 212, 0.045) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(94, 234, 212, 0.045) 1px, transparent 1px);
+  background-size: 36px 36px;
+}
+
+.bp-grid-fine {
+  background-image:
+    linear-gradient(to right, rgba(94, 234, 212, 0.03) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(94, 234, 212, 0.03) 1px, transparent 1px);
+  background-size: 8px 8px;
+}
+
+/* Claim-ledger numbering — tabular figures for scores */
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+::selection {
+  background: rgba(94, 234, 212, 0.25);
+  color: #fff;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-blueprint);
+  outline-offset: 2px;
+}
