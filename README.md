@@ -89,7 +89,8 @@ Patent Intelligence Report
 ---
 
 ## ⚠️ Risk Assessment
-![Uploading Risk.png…]()
+<img width="1112" height="822" alt="Risk" src="https://github.com/user-attachments/assets/f9465b06-c64c-491e-a0aa-4bbb3793aaa9" />
+
 
 
 ---
@@ -173,7 +174,7 @@ npm run dev
 Open
 
 ```
-http://localhost:3000
+http://localhost:3001
 ```
 
 ---
