@@ -70,25 +70,27 @@ Patent Intelligence Report
 
 ## 🏠 Home Page
 
-![Home Page](screenshots/home_page.png)
+<img width="1197" height="735" alt="home pang" src="https://github.com/user-attachments/assets/0e6d901b-92a3-44b8-85db-b56356fbda5c" />
+
 
 ---
 
 ## 📊 Analysis Dashboard
 
-![Analysis Dashboard](screenshots/analysis_dashboard.png)
+<img width="1342" height="836" alt="analysis Dshbord" src="https://github.com/user-attachments/assets/34acb652-e722-4943-9d5f-85e6007dc715" />
+
 
 ---
 
 ## 💡 Innovation Assessment
+<img width="1097" height="835" alt="innovation" src="https://github.com/user-attachments/assets/a46eabda-b314-4ae0-82b5-0da4be9b9e09" />
 
-![Innovation](screenshots/innovation_page.png)
 
 ---
 
 ## ⚠️ Risk Assessment
+![Uploading Risk.png…]()
 
-![Risk](screenshots/risk_page.png)
 
 ---
 
